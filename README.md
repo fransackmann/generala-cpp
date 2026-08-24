@@ -17,7 +17,7 @@ Proyecto desarrollado en el marco de la Universidad Tecnológica Nacional (UTN -
 
 - **C++** (estándar del compilador GCC/MinGW)
 - [rlutil.h](https://github.com/tapio/rlutil) para el manejo de la consola (colores, cursor, limpiar pantalla)
-- Proyecto de **Code::Blocks** (`TPGrupal.cbp`)
+- Proyecto de **Code::Blocks** (`Generala.cbp`)
 
 ## Estructura del proyecto
 
@@ -27,12 +27,12 @@ Proyecto desarrollado en el marco de la Universidad Tecnológica Nacional (UTN -
 ├── include/
 │   └── funciones.h       # Declaraciones de las funciones del juego
 ├── rlutil.h               # Librería de terceros para interfaz de consola
-└── TPGrupal.cbp           # Proyecto de Code::Blocks
+└── Generala.cbp           # Proyecto de Code::Blocks
 ```
 
 ## Cómo compilar y ejecutar
 
-1. Abrir `TPGrupal.cbp` con [Code::Blocks](http://www.codeblocks.org/) (con un compilador GCC/MinGW configurado).
+1. Abrir `Generala.cbp` con [Code::Blocks](http://www.codeblocks.org/) (con un compilador GCC/MinGW configurado).
 2. Compilar el proyecto (`Build`).
 3. Ejecutar el binario generado en `bin/Debug/`.
 
