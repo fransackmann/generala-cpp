@@ -1,6 +1,8 @@
 # Generala en C++
 
-Implementación en C++ del clásico juego de dados **Generala**, jugable por consola. Desarrollado como trabajo práctico integrador de la materia **Programación I** en la Universidad Tecnológica Nacional (UTN - FRGP).
+Implementación en C++ del clásico juego de dados **Generala**, jugable por consola, con modo de 1 y 2 jugadores.
+
+Proyecto desarrollado en el marco de la Universidad Tecnológica Nacional (UTN - FRGP).
 
 ## Funcionalidades
 
@@ -41,9 +43,9 @@ g++ main.cpp funciones.cpp -Iinclude -o generala
 ./generala
 ```
 
-## Autores
+## Desarrollo
 
-Trabajo grupal (Grupo 9) — Programación I, UTN FRGP:
+Proyecto desarrollado en equipo por:
 
 - Francisco Cristiani
 - Francisco Sackmann
