@@ -1,5 +1,7 @@
 # Generala en C++
 
+*[English version below](#generala-in-c)*
+
 Implementación en C++ del clásico juego de dados **Generala**, jugable por consola, con modo de 1 y 2 jugadores.
 
 Proyecto desarrollado en el marco de la Universidad Tecnológica Nacional (UTN - FRGP).
@@ -46,6 +48,62 @@ g++ main.cpp funciones.cpp -Iinclude -o generala
 ## Desarrollo
 
 Proyecto desarrollado en equipo por:
+
+- Francisco Cristiani
+- Francisco Sackmann
+- Franco Pacheco
+- Rodrigo Godoy
+
+---
+
+## Generala in C++
+
+C++ implementation of the classic **Generala** dice game, playable from the console, with 1-player and 2-player modes.
+
+Developed as part of the Universidad Tecnológica Nacional (UTN - FRGP).
+
+### Features
+
+- **1-player** and **2-player** modes, with score comparison and a dice tie-breaker.
+- Full roll system: up to 3 rolls per round, with the option to choose which dice to re-roll.
+- Optional manual mode, to manually set the value of re-rolled dice (useful for testing combinations).
+- Automatic scoring for every combination: Generala (served and unserved), Four of a Kind, Full House, Straight, and lower-value combos.
+- Tracks the best score across the session.
+- Console interface with colors and text positioning using [rlutil](https://github.com/tapio/rlutil).
+
+### Technologies
+
+- **C++** (GCC/MinGW compiler standard)
+- [rlutil.h](https://github.com/tapio/rlutil) for console handling (colors, cursor, clear screen)
+- **Code::Blocks** project (`Generala.cbp`)
+
+### Project structure
+
+```
+├── main.cpp              # Entry point and main menu
+├── funciones.cpp         # Game logic: turns, rolls, combinations and scoring
+├── include/
+│   └── funciones.h       # Game function declarations
+├── rlutil.h               # Third-party library for the console interface
+└── Generala.cbp           # Code::Blocks project
+```
+
+### How to build and run
+
+1. Open `Generala.cbp` with [Code::Blocks](http://www.codeblocks.org/) (with a GCC/MinGW compiler configured).
+2. Build the project.
+3. Run the binary generated in `bin/Debug/`.
+
+You can also compile it manually with GCC:
+
+```bash
+g++ main.cpp funciones.cpp -Iinclude -o generala
+./generala
+```
+
+### Team
+
+Developed as a team by:
 
 - Francisco Cristiani
 - Francisco Sackmann
